@@ -1,0 +1,72 @@
+Screen {
+  layout: grid;
+  grid-size: 2 2;
+  background: $panel;
+}
+
+#sidebar {
+  dock: left;
+  width: 25%;
+  min-width: 25;
+  height: 100%;
+  margin-top: 1;
+  margin-bottom: 1;
+  border: round $accent;
+}
+
+#environment_picker {
+  width: 100%;
+  background: $panel;
+}
+
+#environment_picker RadioButton {
+  width: 100%;
+}
+
+#environment_picker RadioButton:disabled {
+  display: none;
+}
+
+#environment_controls {
+  height: 3;
+  dock: bottom;
+}
+
+#environment_search {
+  dock: top;
+  margin-bottom: 1;
+  margin-left: 1;
+  margin-right: 1;
+  border: round black;
+  background: $panel;
+}
+
+InteractiveTerminal {
+  column-span: 2;
+  border: round $accent;
+}
+
+InteractiveTerminal RichLog {
+  margin-left: 1;
+  margin-right: 1;
+  padding-left: 2;
+  background: $panel;
+}
+
+InteractiveTerminal Input {
+  border: none;
+  margin-left: 1;
+  margin-right: 1;
+  margin-top: 1;
+  background: $panel;
+}
+
+#snapshot_viewer {
+  border: round $accent;
+  background: $panel;
+}
+
+#snapshot_viewer DataTable {
+  background: $panel;
+  margin: 1;
+}

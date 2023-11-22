@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "sqlmesh-tui"
+version = "0.1.0"
+description = "A textual interface for SQLMesh"
+authors = ["z3z1ma <butler.alex2010@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = "^0.38.1"
+textual-dev = "^1.2.1"
+sqlmesh = "^0.34.3"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-asyncio = "^0.21.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

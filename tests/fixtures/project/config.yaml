@@ -1,0 +1,11 @@
+default_gateway: testing
+
+model_defaults:
+  dialect: duckdb
+
+gateways:
+    testing:
+        connection:
+            type: duckdb
+            database: test.duckdb
+
