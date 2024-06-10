@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "sqlmesh-tui"
+name = "sqlfresh"
 version = "0.1.0"
 description = "A textual interface for SQLMesh"
 authors = ["z3z1ma <butler.alex2010@gmail.com>"]
@@ -7,10 +7,10 @@ license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.10"
-textual = "^0.38.1"
-textual-dev = "^1.2.1"
-sqlmesh = "^0.34.3"
+python = ">=3.9,<3.13"
+textual = "^0.58.1"
+textual-dev = "^1.5.1"
+sqlmesh = "^0.94.0"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.4.2"

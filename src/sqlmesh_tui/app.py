@@ -556,5 +556,7 @@ class SQLMeshApp(App[None]):
 
 
 if __name__ == "__main__":
-    app = SQLMeshApp(Context(paths=["tests/fixtures/project"]))  # type: ignore
+    app = SQLMeshApp(
+        Context(paths=["tests/fixtures/project"]),
+    )  # type: ignore
     app.run()
